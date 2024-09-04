@@ -1,0 +1,52 @@
+* {
+    font-family: "ProggyClean Nerd Font Mono";
+    font-size: 28px;
+}
+
+#window {
+	/*background-color: --wofi-color0;*/
+	background-color: rgba(0, 0, 0, 0.65);
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 0px;
+}
+
+#outer-box {
+	padding: 20px;
+}
+
+#input {
+	background-color: #333333;
+	border: 1px solid #BEBEBE;
+	padding: 8px 12px;
+}
+
+#scroll {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#img {
+	padding-right: 10px;
+}
+
+#text {
+	color: #FFFFFF;
+}
+
+#text:selected {
+	color: #000000;
+}
+
+#entry {
+	padding: 6px;
+}
+
+#entry:selected {
+	background-color: #BEBEBE;
+	color: #000000;
+}
+
+#input, #entry:selected {
+	border-radius: 4px;
+}
